@@ -1,0 +1,43 @@
+.modo-claro {
+    background-color: beige;
+    color: black;
+}
+
+.modo-oscuro {
+    background-color: gray;
+    color: white
+}
+
+nav {
+    padding: 20px;
+    background-color: rgb(73, 73, 73);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: white
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 10px;
+    border: 3px solid green;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.carrito-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boton-card {
+    border: 3px solid red;
+}

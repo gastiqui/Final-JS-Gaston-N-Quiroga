@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="modo-claro">
+
+    <nav>
+        <h1>
+            ¡ Muchas gracias por visitar mi sitio !
+        </h1>
+        <a href="index.html">
+            INICIO
+        </a>
+        <a href="favoritos.html">
+            FAVORITOS
+        </a>
+        <a href="buscar.html">
+            BUSCAR
+        </a>
+        <button id="modo">
+            Modo oscuro
+        </button>
+    </nav>
+
+    <div>
+        <form>
+            <div class="contacto">
+                <label for="name">Nombre:</label>
+                <input type="text" class="form-control" placeholder="Ingresa el nombre">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" placeholder="Ingresa el mail">
+                <label for="mensaje">Mensaje:</label>
+                <textarea class="form-control" placeholder="Ingresa el mensaje"></textarea>
+                <input id="botEnviar" type="submit" class="btn btn-success mb-3" value="Enviar" />
+                <input id="botLimpiar" type="reset" class="btn btn-success mb-3" value="Limpiar">
+            </div>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
